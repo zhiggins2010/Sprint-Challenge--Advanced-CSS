@@ -160,25 +160,25 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.header {
+.titleNav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #F6F6F6;
 }
-.header h1 {
+.titleNav h1 {
   font-size: 4rem;
   margin: 6px;
 }
-.header nav {
+.titleNav nav {
   margin: 6px;
   margin-bottom: 12px;
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
-.header nav a {
+.titleNav nav a {
   font-size: 2rem;
   text-decoration: none;
   color: #23293B;
@@ -198,6 +198,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
@@ -234,6 +237,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #22283A;
+  color: #F6F7F8;
+  font-family: Ubuntu;
+  font-size: 2rem;
 }
 .home .walk .walk-img {
   width: 46%;
