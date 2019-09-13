@@ -65,7 +65,11 @@
 
       .btn {
         button{
-          .buttonStyle(100px, 40px, 5px, @btn-bg-color, @porcelain, Ubuntu, 2rem)
+          .buttonStyle(100px, 40px, 5px, @btn-bg-color, @porcelain, Ubuntu, 2rem);
+          &:hover{
+            background-color: @porcelain;
+            color: @btn-bg-color;
+          }
         }
       }
     }
