@@ -268,3 +268,30 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .space-images {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .space-images .sky {
+    display: none;
+  }
+  .space-images .launch {
+    display: none;
+  }
+  .space-images .blast {
+    min-width: 470px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+}

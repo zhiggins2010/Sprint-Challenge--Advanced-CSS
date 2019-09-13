@@ -24,6 +24,7 @@
       max-width: 100%;
      
     }
+    
   }
 
   .space-images {
@@ -92,3 +93,39 @@
     }
   }
 }// home
+
+@media @phone{
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .space-images{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    .sky{
+      display: none;
+    }
+    .launch{
+      display: none;
+    }
+    //img {
+    //  width: 100%;
+     // margin: 0;
+    //  border-radius: 20px;
+     // height: auto;
+   // }
+    .blast{
+      min-width: 470px;
+      margin: 10px;
+      border-radius: 20px;
+      
+    }
+    
+  }
+}
